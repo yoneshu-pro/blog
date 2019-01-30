@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  php7.3:
+    build: ./docker/php
+    volumes:
+      - ./src:/var/www/html
+    tty: true
